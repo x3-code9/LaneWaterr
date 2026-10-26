@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "addon-template",
+  "version": "${version}",
+  "name": "Lane Water",
+  "description": "Meteor addon that fills a lane with water using one bucket.",
+  "authors": ["you"],
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.AddonTemplate"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "60,120,225"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  }
+}
